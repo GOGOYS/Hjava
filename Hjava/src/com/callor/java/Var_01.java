@@ -19,6 +19,7 @@ public class Var_01 {
 		System.out.println(++intSum);
 		System.out.println(intSum++);
 		System.out.printf("\t%d + %d = %d\n", intNum1, intNum2, intSum);
+		System.out.print(intNum1 / intNum2);
 		
 	}
 
