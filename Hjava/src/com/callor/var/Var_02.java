@@ -8,7 +8,7 @@ public class Var_02 {
 		int intNum1 = 10;
 		
 		int intNum2 = 20;
-		
+	
 		
 		if (intNum1 < ++intNum2 || intNum1 < ++intNum2) {
 			System.out.println(intNum1);
