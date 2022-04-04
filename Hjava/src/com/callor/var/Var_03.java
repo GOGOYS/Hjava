@@ -14,5 +14,19 @@ public class Var_03 {
 		 if (intNum2 < intNum3 && intNum2 > intNum3) {
 			 System.out.println("실패");
 		 }
+		 
+		 double douNum1 = dou();
+		 System.out.println(douNum1);
+		 
+		 String str = Str();
+		 System.out.println(str);
+		 
+	}
+	
+	public static double dou(){
+		return 100.0000000;
+	}
+	public static String Str() {
+		return "가느다란 물방울";
 	}
 }
