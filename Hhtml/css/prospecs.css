@@ -5,16 +5,37 @@
 }
 
 #wrap {
-  width: 1024px;
+  width: 1600px;
+  margin: 0 auto;
 }
 
-#head nav ul li a {
+.mainMenu {
   list-style: none;
+}
+
+.mainMenu {
+  display: flex;
+}
+
+.leftMenu {
+  float: left;
+}
+
+.rightMenu {
+  float: right;
+}
+.mainMenu li a {
   color: black;
   text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 30px;
 }
 
-#mianSlideWrap {
-  width: 1024px;
-  height: 800px;
+#logo {
+  width: 120px;
+}
+
+.icon {
+  width: 25px;
 }
